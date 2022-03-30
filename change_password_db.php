@@ -19,8 +19,8 @@
 
         // ตรวจสอบว่า แต่ละช่อง input ไม่ได้ว่างเปล่า
         if (empty($password_1)) {
-            array_push($errors, "Existing Password is required");
-            $_SESSION['error'] = "Existing Password is required";
+            array_push($errors, "Old Password is required");
+            $_SESSION['error'] = "Old Password is required";
         } 
         if (empty($password_2)) {
             array_push($errors, "New Password is required");
@@ -49,8 +49,9 @@
             // ใส่ข้อมูลลง from 
             $sql_2 = "UPDATE user SET password='$password_2' WHERE username = '$username' ";
             mysqli_query($link, $sql_2);
-            echo "Your password has been changed successfully!"; 
             header('location: login.php');
+            echo "Your password has been changed successfully!"; 
+            
             }
         } else {
             array_push($errors, "Wrong Username or Password");
@@ -59,7 +60,7 @@
         }
     }   
     else {
-        echo "Username & Password is required, Try again!";
         header("location: change_password.php");
+        echo "Username & Password is required, Try again!";
     }
 ?>
