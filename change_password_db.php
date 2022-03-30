@@ -51,7 +51,7 @@
             mysqli_query($link, $sql_2);
             header('location: login.php');
             echo "Your password has been changed successfully!"; 
-            
+        
             }
         } else {
             array_push($errors, "Wrong Username or Password");

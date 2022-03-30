@@ -10,6 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Page</title>
+    
+    <!-- Like UX/UI from style.css --> 
+    <link rel="stylesheet" href="style.css">
 
     <!-- Connection with bootstrap5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -27,14 +30,6 @@
             <span class="navbar-toggler-icon"></span>            
           </button>
 
-            <!-- navbar manu--> 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <a href="index.php" class="text-white btn btn-info">Home</a>
-            </ul>
-            <ul class="navbar-nav mx-1 mb-2 mb-lg-0">
-                  <a href="login.php" class="btn btn-danger">Login</a>
-              </ul>                 
           </div>
         </div>
     </nav>
@@ -109,7 +104,7 @@
 
         <!-- Button -->
         <div class="input-group">
-            <button type="submit" name="reg_user" >Register</button>
+            <button type="submit" name="reg_user" class="bttn btn-Success">Register</button>
         </div>
         <p>Already a member? <a href="login.php">Sign in</a></p>
     </form>

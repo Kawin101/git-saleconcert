@@ -1,3 +1,7 @@
+<?php 
+    session_start();
+    include('server.php'); 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +21,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-danger">
         <div class="container-fluid">
            <!-- Logo navbar 'mx-3 = ระยะห่าง', 'text-white = สีข้อความ' --> 
-          <a class="navbar-brand mx-3 text-white" href="home.html">THE CONCERT</a>
+          <a class="navbar-brand mx-3 text-white" href="home.php">THE CONCERT</a>
 
           <!-- navbar button mobile--> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +31,7 @@
             <!-- navbar manu--> 
           <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <a  class="text-white btn btn-info">Welcome</a>
+                <a class="text-white btn btn-info">Welcome <strong><?php echo $_SESSION['username']; ?></strong> </a>
             </ul>
             <ul class="navbar-nav mx-1 mb-2 mb-lg-0">
                   <a href="index.php?logout='0'" class="btn btn-danger">Logout</a>
@@ -45,15 +49,12 @@
         </div>
                 <!-- Image Overlay -->
                 <div class="card">
-                  <img src="https://cdn.pixabay.com/photo/2020/12/23/14/41/forest-5855196__340.jpg" class="card-img-top">
-                  <img src=images/rice.jpg>
+                    <!-- https://pbs.twimg.com/media/FHW4tD_VUAINFfg?format=jpg&name=large -->
+                  <img src="Picture/c1.jpg" class="card-img-top">
                   <div class="card-body card-img-overlay">
-                      <h4 class="card-title text-white">เที่ยวทะเล</h4>
-                      <h6 class="card-subtitle mb-2 text-white">เผยแพร่ 01/01/2021</h6>
-                      <p class="card-text text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto necessitatibus libero veniam doloremque soluta. Commodi, similique, nesciunt corporis laboriosam fuga sapiente non blanditiis inventore quasi labore tempora enim dicta a!</p>
-                      <a href="#" class="btn btn-success">อ่านบทความ</a>
+                  <a href="#" class="btn btn-success">!!! ซื้อเดี่ยวนี้ !!!</a>
                   </div>
-                  <div class="card-footer">ผู้เขียนบทความ , ก้องรักสยาม</div>
+                  <div class="card-footer">ผู้จัดงาน , ธิดารัตน์ มาทา</div>
               </div>
               <br>
     </nav>
