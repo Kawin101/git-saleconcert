@@ -23,22 +23,13 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-danger">
         <div class="container-fluid">
            <!-- Logo navbar 'mx-3 = ระยะห่าง', 'text-white = สีข้อความ' --> 
-          <a class="navbar-brand mx-3 text-white" href="#">THE CONCERT</a>
+          <a class="navbar-brand mx-3 text-white" href="even.php">THE CONCERT</a>
 
           <!-- navbar button mobile--> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>            
           </button>
 
-            <!-- navbar manu--> 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <a href="index.php" class="text-white btn btn-info">Home</a>
-            </ul>
-            <ul class="navbar-nav mx-1 mb-2 mb-lg-0">
-                  <a href="login.php" class="btn btn-danger">Login</a>
-              </ul>                 
-          </div>
         </div>
     </nav>
 
@@ -72,8 +63,8 @@
             <input type="answer" name="answer">
         </div>
 
-            <button type="submit" name="login_change" >Complete</button>
-            <button type="reset" name="reset" >Cancel</button>
+            <button type="submit" name="login_change" class="bttn btn-Success">Next</button>
+            <button type="reset" name="reset" class="bttn btn-danger">Cancel</button>
         </div>
         <p>Not yet a member? <a href="login.php">Sign in</a></p>
     </form>

@@ -23,7 +23,7 @@
 
             if (mysqli_num_rows($result) == 1) {
                 $_SESSION['username'] = $username;
-                $_SESSION['success'] = "Your are now logged in";
+                $_SESSION['success'] = ""; // Alert ข้อความแจ้งเตือน
                 header("location: index.php");
             } else {
                 array_push($errors, "Wrong Username or Password");
@@ -36,9 +36,6 @@
             header("location: login.php");
         }
     }
-
-    
-    // พี่กวิน อยากกลับหอ หนองคาย ไปหา น้องน้ำหวาน มากๆ ตอนนี้
 ?>
 
  

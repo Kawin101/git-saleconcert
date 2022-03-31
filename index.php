@@ -1,11 +1,9 @@
 <?php 
-
     // function ตรวจสอบว่า เข้าสู่ระบบริยัง? ถ้ายังไม่เข้าให้ แสดงหน้า Login
     session_start();
-
-    if (!isset($_SESSION['username'])) {
-        $_SESSION['msg'] = "You must log in first";
-        header('location: login.php');
+    if (!isset($_SESSION['username'])) {    //ตรวจสอบว่า ได้เข้าสู่ระบบริยัง?
+        $_SESSION['msg'] = "You must log in first"; //ถ้ายังให้แสดงข้อความ
+        header('location: even.php'); //ให้ไปหน้า even.php ก่อน 
     }
 
     if (isset($_GET['logout'])) {
@@ -13,7 +11,6 @@
         unset($_SESSION['username']);
         header('location: login.php');
     }
-    
 ?>
 
 
@@ -51,15 +48,10 @@
             <ul class="navbar-nav mx-1 mb-2 mb-lg-0">
                   <a href="login.php" class="btn btn-danger">Logout</a>
             </ul>                 
-          </div>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-    <!-- 
-    <div class="homeheader">
-        <h2> All EVEN</h2>
-    </div>
-    -->
 
     <div class="homecontent">
         <!--  notification message -->
@@ -81,19 +73,18 @@
 
         <?php endif ?>
         
-
-
-        
-        
-            <!-- 
-                // Link และ ตรวจสอบว่า login แล้วยัง ถ้า Login แล้ว จะทำการ Logi
-            <p><a href="index.php?logout='1'" style="color: red;">Logout</a></p>
-                // linke แสดง 'Welcome #ตามด้วยชื่อ username'
-            <p>Welcome <strong><?php //echo $_SESSION['username']; ?></strong></p>
-            -->
-        
-
     </div>
+
+    <nav>
+      <ul class="pagination justify-content-center">
+          <li class="page-item active">
+              <a href="#" class="page-link">1</a>
+          </li>
+          <li class="page-item">
+              <a href="#" class="page-link">2</a>
+          </li>
+      </ul>
+  </nav>
 
 </body>
 </html>

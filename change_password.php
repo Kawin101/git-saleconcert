@@ -23,22 +23,12 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-danger">
         <div class="container-fluid">
            <!-- Logo navbar 'mx-3 = ระยะห่าง', 'text-white = สีข้อความ' --> 
-          <a class="navbar-brand mx-3 text-white" href="#">THE CONCERT</a>
+          <a class="navbar-brand mx-3 text-white" href="even.php">THE CONCERT</a>
 
           <!-- navbar button mobile--> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>            
-          </button>
-
-            <!-- navbar manu--> 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <a href="index.php" class="text-white btn btn-info">Home</a>
-            </ul>
-            <ul class="navbar-nav mx-1 mb-2 mb-lg-0">
-                  <a href="login.php" class="btn btn-danger">Login</a>
-              </ul>                 
-          </div>
+          </button>          
         </div>
     </nav>
     
@@ -57,7 +47,20 @@
                 </h3>
             </div>
         <?php endif ?>
+
+        <!--  notification message -->
+        <?php if (isset($_SESSION['success'])) : ?>
+            <div class="success">
+                <h3>
+                    <?php 
+                        echo $_SESSION['success'];
+                        unset($_SESSION['success']);
+                    ?>
+                </h3>
+            </div>
+        <?php endif ?>
         <!-- จบการทำงาน ของ function if-->
+
         <div class="input-group">
             <label for="username">Username</label>
             <input type="username" name="username">
@@ -75,8 +78,8 @@
             <input type="password" name="password_3">
         </div>
 
-            <button type="submit" name="change_password_user" class="" >Change Password</button>
-            <button type="reset" name="reset" >Cancel</button>
+            <button type="submit" name="change_password_user" class="bttn btn-Success">Complete</button>
+            <button type="reset" name="reset" class="bttn btn-danger">Cancel</button>
         </div>
         <p>Not yet a member? <a href="login.php">Sign in</a></p>
     </form>

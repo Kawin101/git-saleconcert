@@ -46,21 +46,20 @@
             $result = mysqli_query($link, $sql);
             
             if(mysqli_num_rows($result) == 1) {
-            // ใส่ข้อมูลลง from 
-            $sql_2 = "UPDATE user SET password='$password_2' WHERE username = '$username' ";
-            mysqli_query($link, $sql_2);
-            header('location: login.php');
-            echo "Your password has been changed successfully!"; 
-        
+                // ใส่ข้อมูลลง from 
+                $sql_2 = "UPDATE user SET password='$password_2' WHERE username = '$username' ";
+                mysqli_query($link, $sql_2);
+                $_SESSION['success'] = "Your password has been changed successfully!"; // Alert ข้อความแจ้งเตือน
+                header('location: login.php');
+            } else {
+                array_push($errors, "Wrong Username or Old Password");
+                $_SESSION['error'] = "Wrong Username or Old Password";
+                header("location: change_password.php");
             }
         } else {
-            array_push($errors, "Wrong Username or Password");
-            $_SESSION['error'] = "Wrong Username or Password!";
+            array_push($errors, "Wrong New Password or Old Password");
+            $_SESSION['error'] = "Wrong New Password or Old Password!";
             header("location: change_password.php");
         }
-    }   
-    else {
-        header("location: change_password.php");
-        echo "Username & Password is required, Try again!";
     }
 ?>
