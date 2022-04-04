@@ -1,6 +1,6 @@
 # System-sale-concert.
 > * Two work of the years 2022, My beginer programing.
-> * พัฒนาโดย(Programing): นายกวินภพ ชมนิกร (php) และ นางสาวธิดารัตน์ มาทา (html5) 
+> * พัฒนาโดย (Programing): นายกวินภพ ชมนิกร (php) และ นางสาวธิดารัตน์ มาทา (html5) 
 > * Credit Picture from: นายพงศกร อรรคศรี (UX/UI)
 
 > * Credit Coding from:
