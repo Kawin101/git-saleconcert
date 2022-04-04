@@ -88,7 +88,7 @@
           </div>
         </div>
         <hr>
-        <center> <font color="white"> designed by devbanban.com  สนับสนุนได้ที่ <a href="https://devbanban.com/?page_id=2309" target="_blank"> คลิก </a></font></center>
+        <br>
 </tbody>
 </body>
 </html>
