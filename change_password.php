@@ -78,7 +78,7 @@
             <input type="password" name="password_3">
         </div>
 
-            <button type="submit" name="change_password_user" class="bttn btn-Success">Complete</button>
+            <button type="submit" name="change_password_user" class="bttn btn-success">Complete</button>
             <button type="reset" name="reset" class="bttn btn-danger">Cancel</button>
         </div>
         <p>Not yet a member? <a href="login.php">Sign in</a></p>

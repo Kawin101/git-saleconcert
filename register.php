@@ -104,7 +104,7 @@
 
         <!-- Button -->
         <div class="input-group">
-            <button type="submit" name="reg_user" class="bttn btn-Success">Register</button>
+            <button type="submit" name="reg_user" class="bttn btn-success">Register</button>
         </div>
         <p>Already a member? <a href="login.php">Sign in</a></p>
     </form>

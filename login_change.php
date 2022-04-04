@@ -63,7 +63,7 @@
             <input type="answer" name="answer">
         </div>
 
-            <button type="submit" name="login_change" class="bttn btn-Success">Next</button>
+            <button type="submit" name="login_change" class="bttn btn-success">Next</button>
             <button type="reset" name="reset" class="bttn btn-danger">Cancel</button>
         </div>
         <p>Not yet a member? <a href="login.php">Sign in</a></p>

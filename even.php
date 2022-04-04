@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-danger">
         <div class="container-fluid">
            <!-- Logo navbar 'mx-3 = ระยะห่าง', 'text-white = สีข้อความ' --> 
-          <a class="navbar-brand mx-3 text-white" href="home.php">THE CONCERT</a>
+          <a class="navbar-brand mx-3 text-white" href="#">THE CONCERT</a>
 
           <!-- navbar button mobile--> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

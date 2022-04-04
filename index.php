@@ -27,8 +27,7 @@
 
 
 </head>
-<body>
-    
+<body>  
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-danger">
         <div class="container-fluid">
@@ -67,24 +66,55 @@
         <?php endif ?>
         
         <!-- logged in user information -->
-        <?php if (isset($_SESSION['username'] )) : ?>
-            
-            <p class="Text-Center">Do you have to buy a ticket? <a href="home.php" style="color: blue;">Home Page</a></p>
-
-        <?php endif ?>
-        
+        <?php if (isset($_SESSION['username'] )) : ?>  
+        <!-- <p class="Text-Center">Do you have to buy a ticket? <a href="even.php" style="color: blue;">Home Page</a></p> -->
+        <?php endif ?>       
     </div>
 
+     
+    <div class="container">
+      <div class="text-center">
+      <br>
+
+      <div class="alert alert-danger">
+        <strong><h2><p class="center text-dark">THE CONCERT recommends : THAITANIUM UNBREAKABLE Concert</p> </h2> </strong>
+      </div>     
+      </div>
+
+      <!---รูปภาพ--->
+      <img src="Picture/c4.jpg" width="450" height="500" alt="" class="float-start">
+     &#160; &#160; &#160; &#160; &#160; &#160; &#160; 
+      <!---วิดีโอ--->
+      <iframe width="750" height="500" src="https://www.youtube.com/embed/YixswrG3DSw" 
+      title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+
+        <div style="text-align:center;width:100%;">
+      <h1><p class="text-primary">CONCERT : THAITANIUM UNBREAKABLE Concert </p></h1>
+      <p class="text-primary"> Leo presents : THAITANIUM UNBREAKABLE Concert </p>
+      <a href="zone.php" class="btn btn-danger">!...BUY NOW...!</a>
+      <hr> <br>  
+         </div>
+    </div>
+
+      <!---หน้าที่ใช้งาน--->
     <nav>
       <ul class="pagination justify-content-center">
           <li class="page-item active">
-              <a href="#" class="page-link">1</a>
+              <a href="index.php" class="page-link">Home page</a>
           </li>
           <li class="page-item">
-              <a href="#" class="page-link">2</a>
+              <a href="twopage.php" class="page-link">2</a>
+          </li>
+          <li class="page-item">
+              <a href="lastpage.php" class="page-link">Last page</a>
           </li>
       </ul>
+      <br>
   </nav>
+
 
 </body>
 </html>
