@@ -19,7 +19,8 @@ $dateCreate = date('Y-m-d H:i:s'); //วันที่บันทึก
 
 //insert booking
 mysqli_query($condb, "BEGIN");
-$sqlInsertBooking	= "INSERT INTO  tbl_booking values(null, '$table_id', '$booking_name', '$booking_date', '$booking_time', '$booking_phone', '$booking_staff', '$dateCreate')";
+$sqlInsertBooking	= "INSERT INTO  tbl_booking values(null, '$table_id', '$booking_name', 
+						'$booking_date', '$booking_time', '$booking_phone', '$booking_staff', '$dateCreate')";
 $rsInsertBooking	= mysqli_query($condb, $sqlInsertBooking);
  
 //การใช้ Transection ประกอบด้วย  BEGIN COMMIT ROLLBACK 
