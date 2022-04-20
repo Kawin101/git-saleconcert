@@ -54,7 +54,8 @@
             <br> 
             <div>
               <h1> Ticket Concert </h1>
-              <p class="text-danger"> Please take pictures as evidence. </p>    
+              <p class="text-danger"> Please take pictures as evidence. </p>
+              <p class="text-danger">**หมายเหตุ รหัสตรวจสอบสถานะการจัดส่ง TH012345678910**</p>    
           </div>
           </div>
 
