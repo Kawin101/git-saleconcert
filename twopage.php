@@ -84,7 +84,7 @@
         </div>
       </div>
       </div>
-    <br> <br> 
+     <br> 
     
     <!-- หน้าตรงกลาง -->
 <nav>
@@ -100,7 +100,10 @@
   </li>
 </ul>
 </nav>
-<br> 
+<hr> 
+<div class="text-center">
+  <p class="text-danger">  แจ้งปัญหาได้ที่ FB: The Concert App หรือ Gmail: TheConcert@TheConcert.com  </p>
+  <br></div>
 
 
 

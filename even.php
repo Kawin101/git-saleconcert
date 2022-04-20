@@ -41,7 +41,7 @@
       </nav>
 
       <br><br>
-      <h2 class="text-center"><a class="text-danger">HOT</a></h2>
+      <h2 class="text-center"><a class="text-danger"> EVEN </a></h2>
       <br>
 
 
@@ -66,7 +66,7 @@
                                 <img src="Picture/c5.jpg" class="d-block w-100">
                             </div>
                             <div class="carousel-item active">
-                                <img src="Picture/c4.jpg" class="d-block w-100">
+                                <img src="Picture/c7.jpg" class="d-block w-100">
                                 <div class="carousel-caption d-none d-md-block">
                                 </div>
                             </div>

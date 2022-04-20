@@ -61,10 +61,10 @@
     <h1>CONCERT : CLASH AWAKE CONCERT</h1>
     <p class="text-info">Leo Presents “CLASH AWAKE CONCERT” ปลุกทุกความสุข ฟื้นทุกความทรงจำ</p>
     <a href="#" class="btn btn-danger disabled">Be Over</a>
-    <hr>  
+    <br>  
 </div>
     </div>
-
+    <br> 
 
     <!-- หน้าตรงกลาง -->
     <nav>
@@ -80,7 +80,10 @@
   </li>
 </ul>
 </nav>
-<br>
+<hr> 
+<div class="text-center">
+  <p class="text-danger">  แจ้งปัญหาได้ที่ FB: The Concert App หรือ Gmail: TheConcert@TheConcert.com  </p>
+  <br></div>
 
 </body>
 </html>

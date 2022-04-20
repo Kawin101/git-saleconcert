@@ -35,7 +35,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-danger">
     <div class="container-fluid">
       <!-- Logo navbar 'mx-3 = ระยะห่าง', 'text-white = สีข้อความ' --> 
-      <a class="navbar-brand mx-3 text-white" href="home.php">THE CONCERT</a>
+      <a class="navbar-brand mx-3 text-white" href="index.php">THE CONCERT</a>
 
       <!-- navbar button mobile--> 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,6 +62,9 @@
           <br>
           <h4 align="center" style="color: red;">กรุณากรอกข้อมูลเกี่ยวกับการจองที่นั่ง</h4>
           <br>
+          
+          <p class="text-primary"> ▶ วันที่ & สถานที่แสดง : วันที่ 2022.04.21 เวลา 23.00 น. & โอลิมปิกพาร์ค โอลิมปิกฮอลล์ </p>
+
           <div class="row">
             <div class="col-sm-12 col-md-12">
               <div class="alert alert-warning" role="alert">
@@ -85,6 +88,7 @@
                     <div class="form-group row">
                       <label class="col-sm-2 ">วันที่</label>
                       <div class="col-sm-5">
+                        <!-- //ลบ min mix จะสามารถเลือก Y-m-d ได้ -->
                         <input type="date" name="booking_date" class="form-control" required value="<?php echo date('Y-m-d');?>" min="<?php echo date('Y-m-d');?>" max="<?php echo date('Y-m-d');?>">
                       </div>
                       <label class="col-sm-1 ">เวลา</label>
@@ -99,10 +103,9 @@
                       </div>
                     </div>
                     <div class="form-group row">
-                      <label class="col-sm-2 ">ผู้บันทึก</label>
+                      <label class="col-sm-2 ">ราคา</label>
                       <div class="col-sm-3">
-                        <input type="text" name="booking_staff" class="form-control" readonly value="ผู้ใช้งาน.">
-                        <a class="text-dirk btn btn-light my-1" ><strong><?php echo $_SESSION['username']; ?></strong></a>
+                        <input type="text" name="booking_staff" class="form-control" readonly value="1,999 Baht.">
                       </div>
                     </div>
                     <div class="form-group row">

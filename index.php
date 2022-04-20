@@ -77,27 +77,31 @@
       <br>
 
       <div class="alert alert-danger">
-        <strong><h2><p class="center text-dark">THE CONCERT recommends : THAITANIUM UNBREAKABLE Concert</p> </h2> </strong>
+        <strong><h2><p class="center text-dark">THE CONCERT recommends :  TREASURE 1ST-CONCERT  </p> </h2> </strong>
       </div>     
       </div>
 
       <!---รูปภาพ--->
-      <img src="Picture/c7.jpg" width="450" height="500" alt="" class="float-start">
-     &#160; &#160; &#160; &#160; &#160; &#160; &#160; 
+      <img src="Picture/c7.jpg" width="450" height="600" alt="" class="float-start">
+     &#160; &#160; &#160; 
       <!---วิดีโอ--->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/cUIBOPt3hX0" title="YouTube video player" 
+      <iframe width="800" height="600" src="https://www.youtube.com/embed/cUIBOPt3hX0" title="YouTube video player" 
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
          allowfullscreen></iframe>
 
         <div style="text-align:center;width:100%;">
-      <h1><p class="text-primary">CONCERT : THAITANIUM UNBREAKABLE Concert </p></h1>
-      <p class="text-primary"> Leo presents : THAITANIUM UNBREAKABLE Concert </p>
+      <h1><p class="text-primary">CONCERT : TREASURE 1ST-CONCERT </p></h1>
+      <p class="text-primary"> 🔔ขายบัตรตั้งแต่วัน 2022.04.15 เวลา 10.00 น. </p>
+            <p class="text-primary"> ▶ ประกาศเปิดจำหน่ายบัตร
+            - จองตั๋วออนไลน์: 2022.04.17 เป็นต้นไป  </p>
+            <p class="text-primary"> ▶ วันที่ & สถานที่แสดง : วันที่ 2022.04.21 เวลา 23.00 น. & โอลิมปิกพาร์ค โอลิมปิกฮอลล์ </p>
+
       <a href="zone.php" class="btn btn-danger">!...BUY NOW...!</a>
-      <hr> <br>  
+      <br>  
          </div>
     </div>
-
-      <!---หน้าที่ใช้งาน--->
+    <br> 
+    <!---หน้าที่ใช้งาน--->
     <nav>
       <ul class="pagination justify-content-center">
           <li class="page-item active">
@@ -112,6 +116,10 @@
       </ul>
       <br>
   </nav>
+    <hr>
+      <div class="text-center">
+  <p class="text-danger">  แจ้งปัญหาได้ที่ FB: The Concert App หรือ Gmail: TheConcert@TheConcert.com  </p>
+  <br></div>
 
 
 </body>
