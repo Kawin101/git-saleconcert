@@ -82,14 +82,12 @@
       </div>
 
       <!---รูปภาพ--->
-      <img src="Picture/c4.jpg" width="450" height="500" alt="" class="float-start">
+      <img src="Picture/c7.jpg" width="450" height="500" alt="" class="float-start">
      &#160; &#160; &#160; &#160; &#160; &#160; &#160; 
       <!---วิดีโอ--->
-      <iframe width="750" height="500" src="https://www.youtube.com/embed/YixswrG3DSw" 
-      title="YouTube video player" frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cUIBOPt3hX0" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+         allowfullscreen></iframe>
 
         <div style="text-align:center;width:100%;">
       <h1><p class="text-primary">CONCERT : THAITANIUM UNBREAKABLE Concert </p></h1>
